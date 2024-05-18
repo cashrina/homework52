@@ -347,10 +347,10 @@
 .playingCards.faceImages .card.rank-q.spades { background-image: url(assets/assets/faces/QS.gif); }
 .playingCards.faceImages .card.rank-q.clubs  { background-image: url(assets/assets/faces/QC.gif); }
 
-.playingCards.faceImages .card.rank-k.diams  { background-image: url(assets/assets/faces/KD.gif); }
-.playingCards.faceImages .card.rank-k.hearts { background-image: url(assets/assets/faces/KH.gif); }
-.playingCards.faceImages .card.rank-k.spades { background-image: url(assets/assets/faces/KS.gif); }
-.playingCards.faceImages .card.rank-k.clubs  { background-image: url(assets/assets/faces/KC.gif); }
+.playingCards.faceImages .card.rank-k.diams  { background-image: url(./assets/assets/faces/KD.gif); }
+.playingCards.faceImages .card.rank-k.hearts { background-image: url(./assets/assets/faces/KH.gif); }
+.playingCards.faceImages .card.rank-k.spades { background-image: url(./assets/assets/faces/KS.gif); }
+.playingCards.faceImages .card.rank-k.clubs  { background-image: url(./assets/assets/faces/KC.gif); }
 
 .playingCards.faceImages .card.joker         { background-image: url(assets/assets/faces/joker.gif); }
 .playingCards.simpleCards .card.rank-j,
