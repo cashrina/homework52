@@ -1,7 +1,6 @@
 import './App.css';
 import Card from "./components/Card/Card.tsx";
 
-
 interface CardRank {
     [key: string]:string;
 }
