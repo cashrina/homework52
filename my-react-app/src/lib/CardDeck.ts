@@ -1,12 +1,13 @@
 import Card from "../lib/Card.ts";
 
 class CardDeck {
+    private readonly cardRank: string[] = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'j', 'q', 'k', 'a'];
+    private readonly cardSuit: string[] = ['diams', 'hearts', 'clubs', 'spades'];
     public cards: Card[];
-
-    constructor(ranks: string[], suits: string[]) {
+    constructor() {
         this.cards = [];
-        for (const suit of suits) {
-            for (const rank of ranks) {
+        for (const suit of this.cardSuit) {
+            for (const rank of this.cardRank) {
                 const card = new Card(rank, suit);
                 this.cards.push(card);
             }
