@@ -21,19 +21,18 @@ const App = () => {
 
     if (allCards.length === 0) {
         return (
-            <button onClick={dealCards}>Deal the cards</button>
+            <button onClick={dealCards}>Раздать карты</button>
         );
     }
 
     return (
         <div>
-
               <div className="playingCards faceImages">
                   {allCards.map((card:Card, index:number) => (
                     <CardView key={index} rank={card.rank} suit={card.suit}/>
                   ))}
               </div>
-            <p>result: {handOutcome}</p>
+            <p>Текущая рука: {handOutcome}</p>
         </div>
     );
 };

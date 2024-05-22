@@ -92,17 +92,17 @@ class PokerHand{
     getOutcome() {
         switch (true) {
             case this.isStraightFlush():
-                return "Straight flush";
+                return "Стрит";
             case this.isFlush():
-                return "Flush";
+                return "Флэш";
             case this.isThreeOfAKind():
-                return "Three of a kind";
+                return "Тройка";
             case this.isTwoPairs():
-                return "Two pairs";
+                return "Две пары";
             case this.isOnePair():
-                return "One pair";
+                return "Одна пара";
             default:
-                return "High card";
+                return "Старшая карта";
         }
     }
 }
